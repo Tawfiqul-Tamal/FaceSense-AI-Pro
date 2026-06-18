@@ -1,0 +1,27 @@
+app:
+  name: "FaceSense AI Pro"
+  subtitle: "Real-Time Human Emotion, Age, Gender & Attention Analytics"
+  camera_id: 0
+  theme: "dark"
+  author: "Md. Tawfiqul Islam Tamal"
+  company: "FaceSense AI"
+  copyright: "© 2026 FaceSense AI Pro"
+
+models:
+  emotion: "models/emotion_model.h5"
+  age: "models/age_model.h5"
+  gender: "models/gender_model.h5"
+
+database:
+  path: "database/facesense.db"
+
+ui:
+  width: 1280
+  height: 760
+  refresh_interval_ms: 30
+  profile_image: "assets/profile.jpg"
+
+analytics:
+  report_dir: "reports/"
+  export_dir: "exports/"
+  chart_dir: "assets/"
